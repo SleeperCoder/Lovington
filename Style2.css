@@ -1,0 +1,157 @@
+
+ *{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+   
+   
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+ }
+
+
+section{
+    display: flex;
+    justify-content: Center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background:url("pxfuel.jpg") no-repeat center center;
+    background-size: 1700px 900px;
+   
+    
+ }
+
+
+.Login-box{
+    position: absolute;
+    width: 480px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    backdrop-filter: blur(18px);
+   
+   
+
+}
+
+
+h2{
+    font-size: 2em; 
+    color: #fff;
+    text-align: center;
+ 
+ }
+ 
+ .input-box{
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid #7a7778;
+   
+
+ }
+
+ .input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+     }
+
+ .input-box input:focus~label,
+ .input-box input:valid~label{
+    top:-5px;
+ }
+
+ .input-box{
+    color:#fff;
+    transition: .5s;
+ }
+.input-box input{
+    width: 100% ;
+    height: 50px;
+    background: transparent;
+    border:none;
+    outline: none;
+    font-size: 1em;
+    color: #f538ef;
+    transition: .5s;
+
+
+
+}
+
+.input-box .icon{
+    position: absolute;
+    right:8px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 57px;
+
+}
+.remember-forgot{
+    margin: -15px 0 15px;
+   font-size:.9em ;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+
+.remember-forgot label input{
+    margin-right: 3px;
+
+}
+
+.remember-forgot label input{
+    color: #fff;
+text-decoration: none;}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+ 
+button {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius:40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #282828;
+    font-weight: 500;
+   
+
+
+}
+
+.register-link{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin:50px 0;
+
+}
+
+p a{
+    color: rgba(11, 196, 205, 0.858);
+    font-weight: 500;
+}
+
+
+
+    
+
+
+
